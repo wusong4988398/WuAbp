@@ -404,5 +404,10 @@ namespace WebApplication1.Controllers
             }
         }
         #endregion
+
+        public ActionResult Test()
+        {
+            return View();
+        }
     }
 }
